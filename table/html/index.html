@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="overflow-auto rounded-lg shadow">
+      <table class="w-full">
+        <thead class="border-b-2 border-gray-200 bg-gray-50">
+          <tr>
+            <th class="w-20 p-3 text-left text-sm font-semibold tracking-wide">No.</th>
+            <th class="p-3 text-center text-sm font-semibold tracking-wide">Details</th>
+            <th class="w-24 p-3 text-left text-sm font-semibold tracking-wide">Status</th>
+            <th class="w-[200px] p-3 text-left text-sm font-semibold tracking-wide">Date</th>
+            <th class="w-32 p-3 text-left text-sm font-semibold tracking-wide">Total</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-100">
+          <tr class="bg-white">
+            <td class="p-3 text-sm whitespace-nowrap text-gray-700">
+              <a href="#" class="font-bold text-blue-500 hover:underline">10001</a>
+            </td>
+            <td class="max-w-sm min-w-[300px] p-3 text-sm break-words text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </td>
+            <td class="p-3 text-sm whitespace-nowrap text-gray-700">
+              <span
+                class="bg-opacity-50 rounded-lg bg-green-200 p-1.5 text-xs font-medium tracking-wider text-green-800 uppercase"
+                >Delivered</span
+              >
+            </td>
+            <td class="p-3 text-sm whitespace-nowrap text-gray-700">16/10/2021</td>
+            <td class="p-3 text-sm whitespace-nowrap text-gray-700">$200.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
